@@ -18,8 +18,14 @@ jobs:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: redoc-cli test
-        uses: seeebiii/redoc-cli-github-action@v10
+        
+      - uses: actions/setup-node@v2
         with:
-          args: 'bundle openapi.json'
+          node-version: '14'
+      - run: npm install
+      - run: npm test
+
+#       - name: redoc-cli test
+#         uses: seeebiii/redoc-cli-github-action@v10
+#         with:
+#           args: 'bundle openapi.json'

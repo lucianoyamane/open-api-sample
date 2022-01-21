@@ -1,0 +1,9 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "description": "Test description",
+        "title": "Test title",
+        "version": "0.0.1"
+    }
+
+}

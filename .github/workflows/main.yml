@@ -30,7 +30,7 @@ jobs:
 #       - name: Run a one-line script
 #         run: echo Hello, world! 
       - name: redoc-cli test
-        uses: seeebiii/redoc-cli-github-action@v10
+      - uses: seeebiii/redoc-cli-github-action@v10
         with:
           args: 'bundle openapi.json'
 

@@ -22,4 +22,4 @@ jobs:
       - name: redoc-cli test
         uses: seeebiii/redoc-cli-github-action@v10
         with:
-          args: 'bundle openapi.json -o index.html'
+          args: 'bundle openapi.json'

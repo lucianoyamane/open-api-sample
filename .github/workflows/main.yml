@@ -24,6 +24,7 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npm run build:doc
+      
 
 #       - name: redoc-cli test
 #         uses: seeebiii/redoc-cli-github-action@v10
